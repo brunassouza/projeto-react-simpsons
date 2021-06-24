@@ -7,10 +7,10 @@ import Simpsons from '../pages/Simpsons'
 const Routes = () => {
     return (
         <BrowserRouter>
-            <switch>
+            <Switch>
                 <Route exact path = '/' component= {Home}/>
                 <Route path = '/simpsons' component= {Simpsons}/>
-            </switch>
+            </Switch>
         </BrowserRouter>
     )
 }
