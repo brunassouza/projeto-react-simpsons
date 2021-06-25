@@ -9,7 +9,7 @@ const Search = () => {
     const [busca, setBusca] = useState('') //useState é como começa
 
 useEffect(()=> {
-    fetch('http://hp-api.herokuapp.com/api/characters')
+    fetch('https://hp-api.herokuapp.com/api/characters')
     .then(resposta => resposta.json())
     .then(dados => setPersonagem(dados))
 
