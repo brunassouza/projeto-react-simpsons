@@ -1,4 +1,4 @@
-Projeto React - Consumo de API's utilizando React :purple_heart:
+# Projeto React - Consumo de API's utilizando React :purple_heart:
 
 ## Sobre o projeto
 Esse projeto teve como objetivo a realização da atividade da {Reprograma} para praticar o consumo de API's usando React.
