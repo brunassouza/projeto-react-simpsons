@@ -3,6 +3,7 @@ import Menu from '../../components/Menu'
 
 import Axios from 'axios'
 import './styles.css'
+import Footer from '../../components/Footer'
 
 const Simpsons = () => {
     const [personagem, setPersonagem] = useState([])
@@ -36,9 +37,13 @@ const Simpsons = () => {
                 })}
                 <button onClick={ligaClique}>Clique para trocar o personagem</button>
             </div>
+            <Footer />
         </>
+        
     )
+    
 }
+
 
 export default Simpsons
 

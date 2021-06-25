@@ -1,0 +1,31 @@
+.personagens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+input {
+    width: 89%;
+    margin: 0.5rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-left: 4rem;
+}
+
+.persos {
+    width: 350px;
+    height: 600px;
+    background-color: wheat;
+    color: #4f2158;
+    margin: 0.5rem;
+    padding: 1.5rem;
+    list-style-type: none;
+    border-radius: 0.5rem;
+}
+
+.images {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+}

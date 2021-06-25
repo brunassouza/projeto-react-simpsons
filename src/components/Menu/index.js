@@ -18,13 +18,16 @@ const Menu = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link >
-                    Sobremim
+                    <Link className="link" to='/search'>
+                    Search
                     </Link>
                 </li>
             </ul>
+            
         </div>
+        
     )
+    
 }
 
 export default Menu
